@@ -1,0 +1,281 @@
+/* for mobile */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+    .wrapper {
+    background-color: #21489C;
+    
+       
+    /* no padding on the wrapper padding: 1px; */
+        
+    }
+    
+    body {
+    border: solid 1px; 
+    background-color: #15329C;
+    font-family: serif;        
+    }
+    
+    .masthead {
+    width: 100%;
+    background-size:cover;
+        background-image: url(http://lorempixel.com/600/400/cats);
+height:200px;
+    
+    }
+    
+    header h1 {
+    
+    
+    text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+    border-color: #1020ff;
+    font-family: verdana, times;
+    font-size: 22.5px;
+        height: 100%;
+        
+        
+    
+    }
+    
+    p {
+    padding:10px;
+    color: #CC9D19;
+    
+    
+    }
+    
+    .mainnav{
+width: 100%;
+    background: #1020ff;
+    
+    
+    
+    }
+    
+    img {
+    width: 100%; 
+    
+
+    
+    }
+       
+
+li {
+   text-align:center ;
+    list-style: none;
+    padding:10px;
+        width:100%;
+    
+   }
+    
+    a {
+     color: #CC9D19;
+    text-decoration: none;
+        
+        
+    }
+    .content {
+    
+    }
+    
+    sidebar content {
+    
+     }
+
+h2 {
+ margin: 10px;   
+}
+    
+    footer {
+        text-align: center;
+            font-family: sans-serif;
+        font-size: 10px;
+        background: #48669f;
+    padding:15px;
+    
+    }
+
+
+
+
+/* for tablets */
+@media screen and (min-width: 35em) {
+ body {
+    border: solid 1px; 
+    background-color: #15329C;
+    font-family: serif;
+
+    }
+    
+    .wrapper{
+        background-color:;
+    margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    .masthead {
+    width: 100%;
+    }
+    
+    header h1 {
+    border: solid 3px;
+
+    border-color: #1020ff;
+    font-family: verdana, times;
+    font-size: 37px;
+   }
+    
+    .mainnav {
+    width: 100%;
+    background: #13118a;
+    text-align:;
+    display:block;
+        float: left;
+    
+    
+    }
+
+   li {
+   text-align: center;
+    width:24%;
+       display: inline-block;
+   }
+    
+    .content {
+        float: left;
+    width: 62%;
+        font-size: 16.5px;
+    }
+    
+    .side {
+    float: right;
+        width: 36%;
+     }
+    
+    img{
+     max-height: auto;
+        max-width: 100%;
+    }
+    
+    footer {
+    clear: both;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 60em) {
+    
+    
+    body {
+    border: solid 1px; 
+    background-color: #15329C;
+    font-family: serif;
+    color: #d3d4d5;
+    
+        
+    }
+    
+    .wrapper {
+      overflow: hidden;
+        clear: both; 
+    }
+    .masthead {
+        
+        background-size: cover;
+        background-image: url(http://lorempixel.com/600/400/cats);
+width:100%;
+    }
+    
+    header img{
+    background-size: 100%;
+        max-width: 100%;
+        max-height: auto;
+        visibility: hidden;
+    }
+    
+   .masthead h1 {
+       text-align: center;
+    /*border: solid 3px;*/
+      /* text-align: center;*/
+       color: #F8FF00;
+        letter-spacing: 1px;
+    /*border-color: #1020ff;*/
+    font-family: verdana, times;
+    font-size: 70px;
+       
+       
+   }
+    
+    .content {
+    /*-webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        column-gap: 12px;*/
+        float:left;
+        width: 50%;
+        /*height: em;*/
+        padding-top: 22px
+    }
+    
+    img {
+    max-width: 100%;
+        max-height: auto;
+    }
+    
+    .primary {
+      -webkit-column-count: 2;
+        width:;
+        column-width: 50%;
+        border: solid 1px;
+        border-color: #13118a;
+        
+        
+    }
+    
+    .mainnav {
+        background-color: #25338f;
+    float: left;
+        width: 25%;
+    }
+    
+    li{
+        width:100%;
+    }
+      
+
+
+a:hover{
+    background-color: #659cef;
+    border: 1px solid #659cef;
+    color: #f3f3f2;
+}
+    
+   /* .content , .primary {
+    float: 
+    } */
+    
+    .side {
+    float: right;
+        width: 25%;
+     }
+    .side img{
+        max-width: 100%;
+        max-height: auto;
+    }
+    
+    .footer {
+    border: solid 3px;
+        background-color: #26429C;
+        bottom: 10;
+        clear: both;
+        text-align: center;
+        color: yellow;
+    }
+}
